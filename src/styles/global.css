@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family: "Montserrat";
+    color: white;
+}
+p{
+    margin:16px auto;
+    line-height: 1.5em;
+}
+
+/* Layout and navbar */
+.layout{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+}
+nav .links{
+    display: inline-block;
+    text-align: right;
+    
+}
+nav a{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    color: white;
+}
+nav a:hover{
+    border-color: white;
+}
+footer p{
+    text-align: center;
+    color: #bbb;
+    margin: 40px auto;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+.header h2{
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    background: #09ff00;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.portfolio{
+    text-align: center;
+}
+.portfolio > h2{
+    font-size: 3em;
+    margin-top: 80px;
+}
+.portfolio > h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin: 80px 20px;
+  }
+  .projects h3 {
+    text-align: center;
+    margin: 20px auto 0px;
+    font-weight: 500;
+  }
+  .projects p {
+    color: #ccc;
+    margin-top: 4px;
+  }
+html, body{
+    min-height: 100%;
+}
+body{
+    background: radial-gradient(at top left,rgb(43, 117, 255) 0%,rgb(0, 192, 176) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
