@@ -15,7 +15,7 @@ export default function Home({data}) {
       <div>
         <h2 >Design</h2>
         <h3>Develop & deploy</h3>
-        <p>UI designer and web developer based in Ghana</p>
+        <p>UI designer, graphic desiner and web developer based in Ghana</p>
         <Link className="btn " to='/projects'>My portfolio</Link>
     </div>
     {/* <StaticImage src="../images/banner.png" alt="A dinosaur" /> */}
